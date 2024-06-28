@@ -149,22 +149,35 @@ html, body {
         font-size: 0.7em;
     }
 }
+.writing-desc {
+    margin-top: 1vw;
+    text-align: center;
+}
 .writing {
     margin-top: 2.5vw;
 }
 @media (max-width: 767px) {
+    .writing-desc {
+        margin-top: 3vw;
+    }
     .writing {
         margin-top: 5vw;
     }
 }
 .footer {
     letter-spacing: 3px;
-    margin-bottom: 3.5vw;
     margin-top: 7.5vw;
+}
+.freepik {
+    margin-top: 0.8vw;
+    margin-bottom: 3.5vw;
+    color:#d6d6d6;
 }
 @media (max-width: 767px) {
     .footer {
-        margin-bottom: 8vw;
         margin-top: 15vw;
+    }
+    .freepik {
+        margin-bottom: 8vw;
     }
 }
