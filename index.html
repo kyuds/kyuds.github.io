@@ -5,18 +5,84 @@
         <meta name="google" content="notranslate">
         <meta http-equiv="Content-Language" content="en">
         <title>Daniel Shin</title>
-        <meta name="description" content="Portfolio by Daniel Shin">
+        <meta name="description" content="Daniel Shin -- Personal Website">
         <meta name="author" content="Daniel Shin">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/ico" href="assets/fav_black.png">
+        <link rel="icon" type="image/ico" href="static/fav_black.png">
         
-        <link href="assets/css/main.css" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
+
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Amiko&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div>
-            <p>Kyuseung Daniel Shin</p>
+        <div class="column">
+            <img src="static/blob.png" class="blob"/>
+            <h1 class="heading">Hi, I'm Daniel Shin</h1>
+            <p class="bio">
+                I am an undergraduate student at UC Berkeley studying 
+                Electrical Engineering and Computer Science (<b>EECS</b>). 
+                I am interested in <b>distributed systems</b>, machine learning, security, 
+                <b>startups</b>, and <b>venture capital</b>.
+            </p>
+            <p class="contact">contact: kyuds1016 [at] berkeley [dot] edu</p>
+            <div id="contents">
+                <div class="sections">
+                    <h1 class="heading">Experience</h1>
+                    <div class="exp-space"></div>
+                    <h3 class="exp-title">Everspin</h3>
+                    <p class="exp-detail">Software Engineer; 2023.08-2025.12</p>
+                    <p class="exp-desc">
+                        Security systems and vulnerability analysis; reverse engineering.
+                        Alternative military service.
+                    </p>
+
+                    <div class="exp-space"></div>
+                    <h3 class="exp-title">Berkeley SkyLab</h3>
+                    <p class="exp-detail">Distributed Systems; 2022.09-2023.05</p>
+                    <p class="exp-desc">
+                        Worked on disaggregated memory on Ray. Experimented with P2P protocols
+                        for load balancing.
+                    </p>
+
+                    <div class="exp-space"></div>
+                    <h3 class="exp-title">Cartly</h3>
+                    <p class="exp-detail">Software Engineering Intern; 2022.06-2022.10</p>
+                    <p class="exp-desc">
+                        Worked on backend infrastructure. Clean architecture with Express and MongoDB.
+                    </p>
+
+                    <div class="exp-space"></div>
+                    <h3 class="exp-title">Berkeley RISELab</h3>
+                    <p class="exp-detail">Machine Learning; 2022.01-2022.9</p>
+                    <p class="exp-desc">
+                        Worked on analyzing dataset distribution shifts using CLIP. Machine learning
+                        pipelines.
+                    </p>
+                </div>
+                <div class="sections">
+                    <h1 class="heading">Projects</h1>
+                    <p class="proj-desc">
+                        Apart from my professional endeavors, I also spend time pursuing projects. Below are a 
+                        selection of projects that I think are the most interesting. Also, visit my 
+                        <a href="https://github.com/kyuds" class="link">Github</a>.
+                    </p>
+                    <div class="proj-list">
+                        <a href="https://github.com/kyuds/raft" class="link">Raft</a>
+                        <a href="https://github.com/kyuds/chord" class="link">Chord</a>
+                        <a href="https://github.com/kyuds/paperscraper" class="link">Paperscraper</a>
+                        <a href="https://github.com/kyuds/bufferoverflow" class="link">Buffer Overflow</a>
+                    </div>
+                </div>
+                <div class="sections">
+                    <h1 class="heading">Writing</h1>
+                    <p class="writing">TBA</p>
+                </div>
+                <p class="footer"><b>© 2024</b> Daniel Shin</p>
+            </div>
         </div>
+        <script src="render.js"></script>
     </body>
 </html>
