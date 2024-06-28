@@ -28,13 +28,18 @@ html, body {
         font-size: 1.1em;
     }
     p {
-        font-size: 0.7em;
+        font-size: 0.65em;
     }
 }
 .blob {
     width: 40%;
     height: auto;
     margin-bottom: 3.7vw;
+}
+@media (max-width: 767px) {
+    .blob {
+        width: 50%;
+    }
 }
 .heading {
     color: black;
@@ -59,6 +64,7 @@ html, body {
     }
     .bio {
         margin-top: 7vw;
+        letter-spacing: 2px;
     }
     .contact {
         margin-top: 3vw;
